@@ -29,20 +29,14 @@ const Login = () => {
             size={10}
           />
         </Box>
-        <Box
-          shadow={6}
-          bgColor={'#fff'}
-          ml={4}
-          height={Dimensions.get('window').height / 2.6}
-          mt={6}
-          mb={5}>
+        <Box shadow={6} bgColor={'#fff'} ml={4} height={'44%'} mt={6} mb={5}>
           <Row alignItems={'center'} borderBottomWidth={0.5} m={5}>
             <Image
               alt=""
               source={{
                 uri: 'https://cdn-icons-png.flaticon.com/512/456/456212.png',
               }}
-              size={7}
+              size={5}
             />
             <TextInput
               placeholder="Username"
@@ -56,7 +50,7 @@ const Login = () => {
               source={{
                 uri: 'https://cdn-icons-png.flaticon.com/512/3064/3064155.png',
               }}
-              size={7}
+              size={5}
             />
             <TextInput
               placeholder="Password"
@@ -70,7 +64,7 @@ const Login = () => {
           <Pressable
             bgColor={'black'}
             py={2}
-            width={Dimensions.get('window').width / 2.7}
+            width={'30%'}
             alignItems={'center'}
             shadow={2}
             alignSelf={'flex-end'}
